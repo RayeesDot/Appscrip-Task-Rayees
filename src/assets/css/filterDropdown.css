@@ -1,0 +1,45 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+.FilterDropdown {
+    height: 100%;
+    /* width: 250px; */
+    margin-top: 330px;
+    position: absolute;
+    top: 0;
+    left: -250px; /* Initially hide the sidebar */
+    background-color: #f4f4f4;
+    padding: 15px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    transition: left 0.3s; /* Smooth transition effect */
+}
+
+.FilterDropdown.open {
+    left: 0; /* Slide in the sidebar */
+}
+
+.main-content {
+    margin-left: 0;
+    padding: 15px;
+    transition: margin-left 0.3s; /* Smooth transition effect */
+}
+
+.main-content.shifted {
+    margin-left: 250px; /* Shift content when sidebar is open */
+}
+
+.toggle-btn {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}

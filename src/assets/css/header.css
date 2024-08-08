@@ -1,0 +1,44 @@
+.container{
+   
+width: 1248px;
+height: 84px;
+}
+.d-flex{
+    display: flex;
+}
+.justify-content-between{
+    justify-content: space-between;
+}
+.justify-content-center{
+    justify-content : center
+}
+ 
+.p-2{
+    padding : 10px;
+}
+.size-text-logo{
+    font-size: 20px;
+    font-weight: bold;
+}
+.border-1{
+    border-bottom: 1px solid gray;
+}
+/* navbar */
+.width-nav{
+    width: 600px;
+}
+li{
+    list-style: none;
+}
+.text-decoration-none{
+    text-decoration : none;
+}
+.color-black{
+    color: black;
+}
+.text-center{
+    text-align: center;
+}
+.ml-2{
+    margin-left: 210px;
+}
